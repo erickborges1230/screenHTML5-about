@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" display="flex">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHO FINAL</title>
+    <link rel="stylesheet" href="./style/style.css">
+    
+    
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">HOME</a>
+            <a class="cabecalho__menu__link" href="about.html" onclick="home()">SORRE MIM</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível<strong 
+            class="titulo-destaque"> com um desenvolvedor Front-end de qualidade!
+            </strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Sou Erick Borges, desenvolvedor
+            Full Strack com especialidade em JavaScript, HTML, CSS, Python e SQLserver. E estou procurando ajudar pequenos negócios e designers a
+            colocarem em prática boas ideias. Vamos
+            conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulos">Acesse minhas redes</h2>
+                <a class="apresentacao__links__link" href="https://github.com/erickborges1230" target="_blank">
+                    <img src="./assets/github.png">
+                    Github
+                    </a>
+                <a class="apresentacao__links__link">
+                        <img src="./assets/instagram.png">
+                        Instagram
+                </a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/Erick-Borges-Batista/" target="_blank">
+                    <img src="./assets/linkedin.png">
+                    Linkedin
+                </a>
+            </div>
+                <div>
+                <h2 class="apresentacao__conteudo__texto">Agora eu gostaria de conhecer um pouco de você. Pode ser??</h2>
+                <br>
+                <section class="coleta__de__dados">
+                <label for="nomeComp">Agora me diga qual seu nome completo?</label>
+                <input type="text" id="nomeComp" name="nomeComp" maxlength="47px">
+                <br>
+                
+                <label for="idade">Quantos anos você tem?</label>
+                <input type="text" id="idade" age="idade" maxlength="34px">
+                <br>
+                
+                <label for="discricao">Na caixa abaixo escreva uma breve descrição sobre que deseja</label>
+                <textarea type="text" id="discricao" discretion="discricao" maxlength="100px" rows="5px"></textarea>
+                
+                <br>
+            
+                <label>Após inserir os dados click em Finalizar</label>
+                <button onclick="alert('Obrigado por compartilhar')" class="finalizar">Finalizar</button>
+                </div>
+            </section>
+            
+        </section>
+        <img class="right" src="./assets/imagem_dev.jpg" alt="Imagem desenvolverdor digital;">
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Erick Borges</p>
+    </footer>
+</body>
+
+</html>
